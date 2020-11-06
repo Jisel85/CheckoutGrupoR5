@@ -1,4 +1,4 @@
-import logo from './LOGO-200PX.webp';
+import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Button, Container, Row, Col } from 'react-bootstrap';
 
