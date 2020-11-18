@@ -14,6 +14,7 @@ function App() {
     <>
     <Header />
     <div className="App">
+      <p className="recommended-services">También te puede interesar</p>
       <Container>
         <Row>
           <Col>
@@ -70,7 +71,9 @@ function App() {
           </Col>
         </Row>
       </Container>
+      <button type="button" class="finish">Finalizar Compra</button>
     </div>
+
     <Footer />
     </>
   );

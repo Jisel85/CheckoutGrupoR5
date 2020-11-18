@@ -33,7 +33,7 @@
 
 .header {
   align-items: center;
-  background: #8f57fd;
+  background: #4db2ec;
   color: white;
   display: flex;
   height: 100px;
@@ -44,7 +44,7 @@
 
 .footer {
   align-items: center;
-  background-color: #8f57fd;
+  background-color:#4db2ec;
   display: flex;
   height: 100px;
   width: 100%;
@@ -60,4 +60,29 @@
 
 .footer a:hover {
   text-decoration: underline;
+}
+
+
+.finish {
+  background: #007bff;
+  color: white;
+  border-radius: .5rem;
+  padding: .5rem 2rem;
+  display: block;
+  margin: 2rem auto 2rem;
+  width: 50%;
+}
+
+.recommended-services {
+  color: black;
+  font-size: calc(10px + 2vmin);
+
+
+}
+
+.logo{
+  width: 4%;
+  display: block;
+  margin: 0 auto;
+
 }
