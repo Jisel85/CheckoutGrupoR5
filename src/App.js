@@ -25,7 +25,7 @@ function App() {
                 <Card.Text>
                 El Seguro Todo Riesgo busca proteger tu patrimonio de daños propios o daños causados a terceros
                 </Card.Text>
-                <Button variant="primary">Agregar</Button>
+                <Button variant="warning">Agregar</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -37,7 +37,7 @@ function App() {
                 <Card.Text>
                 indemnizar al asegurado por los daños sufridos a consecuencia de la desaparición
                 </Card.Text>
-                <Button variant="primary">Agregar</Button>
+                <Button variant="warning">Agregar</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -53,7 +53,7 @@ function App() {
                 <Card.Text>
                 Con el seguro de accidentes personales cuentas con el mejor apoyo en los momentos más difíciles, por eso queremos respaldarte si llegas a tener un accidente.
                 </Card.Text>
-                <Button variant="primary">Agregar</Button>
+                <Button variant="warning">Agregar</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -65,13 +65,13 @@ function App() {
                 <Card.Text>
                 Estar preparado es la mejor opción para proteger la vida de aquellos peluditos a los que tanto amamos.
                 </Card.Text>
-                <Button variant="primary">Agregar</Button>
+                <Button variant="warning">Agregar</Button>
               </Card.Body>
             </Card>
           </Col>
         </Row>
       </Container>
-      <button type="button" class="finish">Finalizar Compra</button>
+      <button type="button" class="btn btn-warning btn-lg">Finalizar Compra</button>
     </div>
 
     <Footer />
