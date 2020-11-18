@@ -42,6 +42,13 @@
   width: 100%;
 }
 
+.logo{
+  height: 90%;
+  display: block;
+  margin: 0 auto;
+
+}
+
 .footer {
   align-items: center;
   background-color:#4db2ec;
@@ -77,12 +84,5 @@
   color: black;
   font-size: calc(10px + 2vmin);
 
-
-}
-
-.logo{
-  width: 4%;
-  display: block;
-  margin: 0 auto;
 
 }
