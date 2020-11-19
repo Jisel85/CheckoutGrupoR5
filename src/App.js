@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './seguro1.jpg';
-import imgrobo from './segurorobo.jpg';
-import imgaccident  from './accident.jpg';
-import mascotas  from './mascotas.jpg';
+import logo from './static/seguro1.jpg';
+import imgrobo from './static/segurorobo.jpg';
+import imgaccident  from './static/accident.jpg';
+import mascotas  from './static/mascotas.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Button, Container, Row, Col } from 'react-bootstrap';
 import Header from './components/Header';

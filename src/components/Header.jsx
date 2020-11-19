@@ -1,6 +1,6 @@
 import React from 'react';
-import '../App.css';
-import logoR5  from '../logoR5.png';
+import '../styles/Header.scss';
+import logoR5  from '../static/logoR5.png';
 
 const Header = () => (
     <header className="header">
