@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './static/seguro1.jpg';
-import imgrobo from './static/segurorobo.jpg';
-import imgaccident  from './static/accident.jpg';
-import mascotas  from './static/mascotas.jpg';
+import logo from '../static/seguro1.jpg';
+import imgrobo from '../static/segurorobo.jpg';
+import imgaccident  from '../static/accident.jpg';
+import mascotas  from '../static/mascotas.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Button, Container, Row, Col } from 'react-bootstrap';
-import Header from './components/Header';
-import './App.css';
-import Footer from './components/Footer';
+import Header from '../components/Header';
+import '../styles/Recommended.scss';
+import Footer from '../components/Footer';
 
-function App() {
+function Recommended() {
   return (
     <>
     <Header />
     <div className="App">
-      <p className="recommended-services">También te puede interesar</p>
       <Container>
+        <h3 className="recommended-services">También te puede interesar</h3>
         <Row>
-          <Col>
-            <Card style={{ width: '20rem' }}>
+          <Col className="recommended-services_list">
+            <Card className="services">
               <Card.Img variant="top" src={logo} />
               <Card.Body>
                 <Card.Title>Seguro de Auto todo riesgo</Card.Title>
@@ -29,8 +29,8 @@ function App() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <Card style={{ width: '20rem' }}>
+          <Col className="recommended-services_list">
+            <Card className="services">
               <Card.Img variant="top" src={imgrobo} />
               <Card.Body>
                 <Card.Title>Seguro robo</Card.Title>
@@ -42,11 +42,11 @@ function App() {
             </Card>
           </Col>
         </Row>
-        </Container>
+        </Container >
         <Container>
         <Row>
-          <Col>
-            <Card style={{ width: '20rem' }}>
+          <Col className="recommended-services_list">
+            <Card className="services">
               <Card.Img variant="top" src={imgaccident} />
               <Card.Body>
                 <Card.Title>Seguro Accidentes Personales</Card.Title>
@@ -57,8 +57,8 @@ function App() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <Card style={{ width: '20rem' }}>
+          <Col className="recommended-services_list">
+            <Card className="services">
               <Card.Img variant="top" src={mascotas} />
               <Card.Body>
                 <Card.Title>Seguro mascotas</Card.Title>
@@ -73,10 +73,9 @@ function App() {
       </Container>
       <button type="button" class="btn btn-warning btn-lg">Finalizar Compra</button>
     </div>
-
     <Footer />
     </>
   );
 }
            
-export default App;
+export default Recommended;
