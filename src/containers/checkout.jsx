@@ -94,34 +94,34 @@ const checkout = () => (
         </form>
         </div>
         <div class="price">
-            <h2>Resumen del pedido</h2>
+            <h2>Resumen de la compra</h2>
             <ul>
                 <li class="item">
                     <span>PRODUCTO</span>
                     <span>SUBTOTAL</span>
                 </li>
                 <li class="item">
-                    <span>PRODUCTO1</span>
-                    <span>$25.000</span>
+                    <span>SOAT</span>
+                    <span>$490.247</span>
                 </li>
                 <li class="item">
-                    <span>PRODUCTO2</span>
+                    <span>PRODUCTO ADICIONAL</span>
                     <span>$35.000</span>
                 </li>
             </ul>
             <ul>
                 <li class="item">
                     <span>Subtotal</span>
-                    <span>$60.000</span>
+                    <span>$525.247</span>
                 </li>
                 <li class="item">
                     <span>Total</span>
-                    <span>$60.000</span>
+                    <span>$525.247</span>
                 </li>
             </ul>
             <div class="form-group">
                 <div class="col-md-12 text-center">
-                    <button type="submit" class="btn btn-primary btn-lg">Hacer pedido</button>
+                    <button type="submit" class="btn btn-primary btn-lg">Pagar</button>
                 </div>
             </div>
         </div>
