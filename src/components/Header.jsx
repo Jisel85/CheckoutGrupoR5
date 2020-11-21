@@ -4,7 +4,7 @@ function Header () {
     return (
        <div className="App">
            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#ff00ff">SOAT</a>
+                <a class="navbar-expand" href="#ff00ff">SOAT</a>
                     <button class="navbar-toggler" type="buttom" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -14,7 +14,7 @@ function Header () {
       <li class="nav-item active">
         <a class="nav-link" href="#ff00">Creditos<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-expand">
         <a class="nav-link" href="#ff00">Otros Seguros</a>
       </li>
       <li class="nav-item dropdown">
