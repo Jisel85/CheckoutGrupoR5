@@ -76,7 +76,7 @@ const checkout = () => (
                         <div class="col-md-12 pad-adjust">
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" checked class="text-muted" /> Guardar esta tarjeta<a href="#">?</a>
+                                    <input type="checkbox" checked class="text-muted" /> Guardar esta tarjeta<a href="#FF">?</a>
                                 </label>
                             </div>
                         </div>

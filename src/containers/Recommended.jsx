@@ -15,7 +15,7 @@ function Recommended() {
     <Header />
     <div className="App">
       <Container>
-        <h3 className="recommended-services">También te puede interesar</h3>
+        <h2 className="recommended-services">También te puede interesar</h2>
         <Row>
           <Col className="recommended-services_list">
             <Card className="services">
