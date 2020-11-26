@@ -8,6 +8,7 @@ import { Card, Button, Container, Row, Col } from 'react-bootstrap';
 import Header from '../components/Header';
 import '../styles/Recommended.scss';
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 
 function Recommended() {
   return (
@@ -71,11 +72,15 @@ function Recommended() {
           </Col>
         </Row>
       </Container>
-      <button type="button" class="btn btn-warning btn-lg">Finalizar Compra</button>
+      <span className="input-group-btn">
+        <Link to="/checkout">Finalizar compra</Link>
+      </span>
     </div>
     <Footer />
     </>
   );
 }
-           
+
+
 export default Recommended;
+

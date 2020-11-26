@@ -46,7 +46,7 @@ const checkout = () => (
             <form action="#" class="credit-card-div">
             <div class="panel panel-default" >
                 <div class="panel-heading">
-                    <span>Métodos de pago</span>
+                    <span>Pago Tarjeta de Crédito</span>
                     <div class="row ">
                         <div class="col-md-12">
                             <input type="text" class="form-control" placeholder="Introduce el No. de tarjeta" />
@@ -87,6 +87,16 @@ const checkout = () => (
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
                             <input type="submit" class="confirm" value="CONFIRMAR" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default" >
+                <div class="panel-heading">
+                    <span>Transferencia desde tu banco con PSE</span>
+                    <div class="row ">
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" placeholder="¿Cuál es tu banco? " />
                         </div>
                     </div>
                 </div>
