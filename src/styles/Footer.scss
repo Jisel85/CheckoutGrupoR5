@@ -3,6 +3,8 @@
     display: flex;
     height: 100px;
     width: 100%;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .footer a {
@@ -11,9 +13,11 @@
     font-size: 14px;
     padding-left: 30px;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .footer a:hover {
     text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
   }
   

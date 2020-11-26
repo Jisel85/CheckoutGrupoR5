@@ -19,9 +19,9 @@ const Footer = () => (
         <text>
             <a href="/">Blog</a> <br />
             <a href="/">Aliados</a> <br />
-            <a href="/">Preguntas frecuentes</a> 
-        </text>
+            <a href="/">Preguntas frecuentes</a>
 
+        </text> 
     </footer>
 );
 
