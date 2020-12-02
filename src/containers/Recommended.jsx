@@ -13,7 +13,6 @@ import { Link } from 'react-router-dom';
 function Recommended() {
   return (
     <>
-<<<<<<< HEAD
       <Header />
       <div className="App">
         <Container>
@@ -28,20 +27,6 @@ function Recommended() {
                     <Card.Title>Seguro de Auto todo riesgo</Card.Title>
                     <Card.Text>
                       El Seguro Todo Riesgo busca proteger tu patrimonio de daños propios o daños causados a terceros
-=======
-    <Header />
-    <div className="App">
-      <Container>
-        <h2 className="recommended-services">También te puede interesar</h2>
-        <Row>
-          <Col className="recommended-services_list">
-            <Card className="services">
-              <Card.Img variant="top" src={logo} />
-              <Card.Body>
-                <Card.Title>Seguro de Auto todo riesgo</Card.Title>
-                <Card.Text>
-                El Seguro Todo Riesgo busca proteger tu patrimonio de daños propios o daños causados a terceros
->>>>>>> d7e78a101bc01a87f3b12a166e1bc77f4e6216ca
                 </Card.Text>
                   </div>
                   <Button variant="warning">Agregar</Button>
