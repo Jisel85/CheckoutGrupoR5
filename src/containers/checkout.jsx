@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../styles/checkout.scss';
+import { form } from 'react-bootstrap';
 
 const checkout = () => (
     <>
@@ -91,16 +92,38 @@ const checkout = () => (
                     </div>
                 </div>
             </div>
-            <div class="panel panel-default" >
-                <div class="panel-heading">
-                    <span>Transferencia desde tu banco con PSE</span>
-                    <div class="row ">
-                        <div class="col-md-12">
-                            <input type="text" class="form-control" placeholder="¿Cuál es tu banco? " />
-                        </div>
-                    </div>
-                </div>
+            <form>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Transferencia PSE</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                <option>¿Cuál es tu banco?</option>
+                <option>Banco Agrario</option>
+                <option>Nequi</option>
+                <option>Banco AV Villas</option>
+                <option>Banco Caja Social</option>
+                <option>Scotiabank Colpatria</option>
+                <option>Banco Cooperativo Coopcentral</option>
+                <option>Banco Davivienda</option>
+                <option>Banco De Bogota</option>
+                <option>Banco De Occidente</option>
+                <option>Banco Falabella</option>
+                <option>Banco GNB Sudameris</option>
+                <option>Banco Pichincha S.A.</option>
+                <option>Banco Popular</option>
+                <option>Banco Procredit</option>
+                <option>Bancolombia</option>
+                <option>Bancoomeva S.A.</option>
+                <option>Banco BBVA Colombia S.A.</option>
+                <option>Citibank</option>
+                <option>Banco Itaú</option>
+                <option>Confiar Cooperativa Financiera</option>
+                <option>DaviPlata</option>
+                <option>DaviPlata</option>
+                <option>Banco De Las Microfinanzas Bancamia</option>
+                <option>Coltefinanciera</option>
+                </select>
             </div>
+            </form>
         </form>
         </div>
         <div class="price">

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Header.scss';
 import logoR5  from '../static/logor5.ico';
+import cartIcon from '../static/carrito-de-compras.svg';
 
 const Header = () => (
     <header className="header">
@@ -40,6 +41,7 @@ const Header = () => (
             </form>
         </div>
         </nav>
+        <img className="cartIcon" src={cartIcon}/>
     </header>    
 );
 
