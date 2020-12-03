@@ -1,6 +1,6 @@
 .header {
     align-items: center;
-    background: #26107F;
+    background: white;
     display: flex;
     height: 100px;
     justify-content: space-around;
@@ -22,5 +22,14 @@
     text-align: left;  
     height: 60%;
     display: block;
+    color:red;
+    font-size: 40px;
+
+    img{
+      height: 100%;
+    }
   }
  
+  input.form-control.mr-sm-2{
+    border: 2px solid red;
+  }

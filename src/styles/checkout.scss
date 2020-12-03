@@ -1,3 +1,7 @@
+.checkoutitems{
+padding-top: 3rem;
+}
+
 .legend.text-center.header{
     color: #120133;
     padding: 10px;
@@ -22,7 +26,7 @@
 
 .confirm{
     border-style: solid;
-    background-color:#ffc107;
+    background-color:#ff031c;
     border-color: transparent;
     border-radius: .3rem;
     padding: 0 48px;
@@ -31,11 +35,12 @@
     font-size: 16px;
     border-width: 1px;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 .cancel{
     border-style: solid;
-    background-color: #ff4747;
+    background-color: #c4c6cf;
     border-color: transparent;
     border-radius: .3rem;
     padding: 0 48px;
@@ -57,29 +62,38 @@ ul {
 .item{
     display: flex;
     justify-content: space-between;
-    border-bottom-width: 1px;
-    border-color: var(--extra-dark-snow);
     padding-bottom: .5rem;
     padding-top: 1.25rem;
-    font-size: .75rem;
-    text-transform: uppercase;
-    margin-top: 1rem;
-    box-sizing: border-box;
+    font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    background-color:#f2f2f2b4;
-    font-weight: bold;
+    border-bottom: solid 1px #989a9b; 
+    margin-top:45px;
+    margin-bottom:15px;
+    font-weight: 100;
 }
+
+
 
 .price{
     padding: 20px 30px;
-    background-color: #fff;
+    background-color: white;
     border-radius: 8px;
     height: 20%;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color:black;
+
+}
+
+.colxs{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: solid 1px rgb(34, 33, 33); 
+    margin-top:15px;
+    margin-bottom:15px;
 }
 
 body{
-    background-color: #f2f2f2d7;
+    background-color: #e6e6e6;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -97,4 +111,21 @@ margin: 1rem;
 .credit-card-div{
  display: flex;
 
+}
+
+div.col-md-8{
+    padding: 0;
+}
+
+.Information{
+    width: 100%;
+    line-height: 0;
+}
+
+.ShippingInformation{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid transparent;
 }

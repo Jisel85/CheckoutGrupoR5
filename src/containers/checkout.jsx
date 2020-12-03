@@ -7,6 +7,7 @@ import { form } from 'react-bootstrap';
 const checkout = () => (
     <>
         <Header />
+        <div className="checkoutitems">
         <div class="row">
         <div class="container">
             <div class="row">
@@ -15,6 +16,9 @@ const checkout = () => (
                         <form class="form-horizontal" method="post">
                             <fieldset>
                                 <h1>Checkout</h1>
+                                <div className="ShippingInformation">
+                                <div className="Information">
+                                <h4>Verifica tu información</h4>
                                 <div class="form-group">
                                     <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                                     <div class="col-md-8">
@@ -38,6 +42,35 @@ const checkout = () => (
                                     <div class="col-md-8">
                                         <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control" />
                                     </div>
+                                </div>
+                                </div>
+                                <div className="Information">
+                                <h4>Tu vehículo</h4>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input type="text" placeholder="Placa" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input type="text" placeholder="Marca" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input type="text" placeholder="Modelo" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input type="text" placeholder="Linea" class="form-control" />
+                                    </div>
+                                </div>
+                                </div>
                                 </div>
                             </fieldset>
                         </form>
@@ -127,18 +160,18 @@ const checkout = () => (
         </form>
         </div>
         <div class="price">
-            <h2>Resumen de la compra</h2>
+            <h2 className="colxs">Resumen de la compra</h2>
             <ul>
                 <li class="item">
-                    <span>PRODUCTO</span>
-                    <span>SUBTOTAL</span>
+                    <span>Producto</span>
+                    <span>Subtotal</span>
                 </li>
                 <li class="item">
-                    <span>SOAT</span>
+                    <span>Soat</span>
                     <span>$490.247</span>
                 </li>
                 <li class="item">
-                    <span>PRODUCTO ADICIONAL</span>
+                    <span>Producto adicional</span>
                     <span>$35.000</span>
                 </li>
             </ul>
@@ -154,12 +187,13 @@ const checkout = () => (
             </ul>
             <div class="form-group">
                 <div class="col-md-12 text-center">
-                    <button type="submit" class="btn btn-primary btn-lg">Pagar</button>
+                    <button type="button" class="btn btn-danger">Pagar</button>
                 </div>
             </div>
         </div>
         </div>
         <Footer />
+        </div>
     </>
 );
 
