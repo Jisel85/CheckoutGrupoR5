@@ -15,9 +15,9 @@
 }
 
 
-.btn-warning{
+.btn-danger{
   display: flex;
-  margin: 2rem auto 2rem;
+  margin: 1rem auto 1rem;
 }
 
 
@@ -40,7 +40,7 @@
 
 .input-group-btn{
   border-style: solid;
-  background-color:#ffc107;
+  background-color:#dc3545;
   border-color: transparent;
   border-radius: .3rem;
   padding: 0 48px;
@@ -49,9 +49,10 @@
   font-size: 16px;
   border-width: 1px;
   font-family: Arial, Helvetica, sans-serif;
-  color:black;
+  color: white;
   margin: 0rem 0rem 1rem 0rem;
   a:link, a:visited, a:active {
+    color: white;
     text-decoration:none;
 }
 }

@@ -2,11 +2,15 @@ import React from 'react';
 import '../styles/Header.scss';
 import logoR5  from '../static/logor5.ico';
 import cartIcon from '../static/carrito-de-compras.svg';
+import store from '../store/store'
 
-const Header = () => (
-    <header className="header">
+const Header = () => {
+    const state = store.getState()
+    let numProductsCart = 0
+    state.cart.forEach((cartProduct) => numProductsCart += cartProduct.n)
+    return <header className="header">
         <img className="logo" src={logoR5} />
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light ">
         <a class="navbar-brand" href="#">SOAT</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,12 +41,15 @@ const Header = () => (
             </ul>
             <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Que estas Buscando?" aria-label="Que estas Buscando?"/>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            <button class="btn btn-danger" type="submit">Buscar</button>
             </form>
         </div>
         </nav>
-        <img className="cartIcon" src={cartIcon}/>
+        <div className="cartIcon">
+            {numProductsCart}
+            <img src={cartIcon}/>
+        </div>
     </header>    
-);
+}
 
 export default Header;
