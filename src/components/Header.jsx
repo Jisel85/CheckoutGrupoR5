@@ -12,7 +12,7 @@ const Header = () => {
     return <header className="header">
         <img className="logo" src={logoR5}/>
             <nav className="navbar navbar-expand-lg navbar-light ">
-                <a className="navbar-brand" href="Soat">SOAT</a>
+                <a className="navbar-brand" href="SOAT">SOAT</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
