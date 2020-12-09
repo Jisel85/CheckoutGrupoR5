@@ -42,7 +42,7 @@
     ]
   },
   "devDependencies": {
-    "favicons-webpack-plugin": "^4.2.0",
+    "favicons-webpack-plugin": "^0.0.7",
     "webpack-pwa-manifest": "^4.3.0"
   }
 }
